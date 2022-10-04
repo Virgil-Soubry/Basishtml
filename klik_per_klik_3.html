@@ -12,20 +12,64 @@
     <title>afbeeldingen</title>
 </head>
 <body>
-<h1>images</h1>
-    <h2>image</h2>
-        <figure>
-            <img width="600" height="auto" src="/images/img.png" alt="shrek">
-            <figcaption>
-            its all oger now
-            </figcaption>
-        </figure>
-    <h2>hotspot image</h2>
+<!-- IMAGE MAPS -->
+<h1>IMAGE MAPS</h1>
+<main>
+    <article>
+        <header>
+            <h2>Dagelijkse gezonde maaltijd.</h2>
+        </header>
+        <p>Neem een kijkje in hoe mijn perfecte maaltijd er uit ziet!</p>
+        <section id="voormiddag">
+            <header>
+                <h3>voormiddag</h3>
+            </header>
+            <article>
+                <header>
+                    <h4>Gezond ontbijt</h4>
+                </header>
+                <p>Een goed ontbijt zal je metabolisme en vetverbranding vlugger op gang krijgen.</p>
+                <p>Op onderstaande fruitschaal of fruitsap kan je klikken. Deze 2 afbeeldingen staan in
+                    een apart html bestand.</p>
+                <img src="./images/ontbijt.png" alt="ontbijt" usemap="#ontbijtmap">
+                <map name="ontbijtmap">
+                    <area shape="rect" coords="571,112,425,367" href="./fruitsap.html" alt="Fruitsap">
+                    <area shape="circle" coords="273,112,113" href="./fruitschaal.html" alt="Fruitschaal">
+                </map>
+            </article>
+        </section>
+        <section id="middag">
+            <header>
+                <h3>middag</h3>
+            </header>
+            <article>
+                <header>
+                    <h4>Eén bord met veel groeten</h4>
+                </header>
+                <p>Zorg ervoor dat je je bord met de helft aan groenten vult.</p>
+                <p>Een stuk vlees tot max. 150g is meer dan voldoende voor een persoon.</p>
+            </article>
+        </section>
+        <section id="avond">
+            <header>
+                <h3>avond</h3>
+            </header>
+            <article>
+                <header>
+                    <h4>Lichte maaltijd</h4>
+                </header>
+                <p>'s Avonds heb je in principe je lichtste maaltijd voor het slapengaan</p>
+                <p>Bruin brood met beleg is hier voldoende eventueel aangevuld met een lichte yoghurt.</p>
+                <p>Bij een hongergevoeld achteraf, drink je voldoende water.</p>
+            </article>
+        </section>
+        <aside>
+            <p>Je kan steeds raad vragen aan een diëtist over een gezond voedingspatroon</p>
+            <p>Eén van de grote tips is de volgende: kijk niet naar de producten met het
+            <q>light</q> logo op de verpakking, maar bekijk het aantal <abbr title="Kilo Caloriëen">KCAL</abbr></p>
 
-
-
-
-
-
+        </aside>
+    </article>
+</main>
 </body>
 </html>

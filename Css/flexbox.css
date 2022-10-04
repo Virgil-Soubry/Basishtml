@@ -1,0 +1,56 @@
+/*toekomstige bootstraps */
+.align-items-start{
+    align-items: flex-start;
+}
+.align-items-end {
+    align-items: flex-end;
+}
+.align-items-center{
+    align-items: center;
+}
+.align-items-baseline{
+    align-items: baseline;
+}
+.align-items-stretch{
+    align-items: stretch;
+}
+.d-flex{
+    display: flex;
+}
+.flex-column{
+    flex-direction:column ;
+}
+.justify-content-start{
+    justify-content: flex-start;
+}
+.justify-content-end{
+    justify-content: end;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-between{
+    justify-content:space-between;
+}
+.justify-content-around{
+    justify-content: space-around;
+}.justify-content-evenly{
+    justify-content: space-evenly;
+ }
+.blok{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
+.bloka{
+    background: purple;
+}
+.blokb{
+    background: blue;
+}
+.blokc{
+    background: green;
+}
+.flexcolor{
+    background: cyan;
+}
